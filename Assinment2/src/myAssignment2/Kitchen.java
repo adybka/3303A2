@@ -81,7 +81,7 @@ public class Kitchen {
 					empty = true;
 					notifyAll();
 					count++;
-				} else if ((table.contains(PB) && (table.contains(JAM) && chefIngredient==PB))) {
+				} else if ((table.contains(PB) && (table.contains(JAM) && chefIngredient==BREAD))) {
 					System.out.println("The " + chefName + " uses his " + chefIngredient + " to finish the sandwich and then he eats it \n");
 					empty = true;
 					notifyAll();
